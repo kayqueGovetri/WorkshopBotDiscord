@@ -1,0 +1,32 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="object.to_json" />
+          <option value="bool.__getitem__" />
+          <option value="bool.update" />
+          <option value="tasks.simples_nacional.*" />
+          <option value="bool.__delitem__" />
+          <option value="dict.valeus" />
+          <option value="queue.Queue.add" />
+          <option value="queue.Queue.first_track" />
+          <option value="queue.Queue.get_next_track" />
+          <option value="wavelink.player.Player.add_tracks" />
+          <option value="bot.Bot.shutdown" />
+          <option value="wavelink.player.Player.teardown" />
+          <option value="impostos.base.ImpostoBase.__setitem__" />
+          <option value="impostos.base.ImpostoBase.__getitem__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
